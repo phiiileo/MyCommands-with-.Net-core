@@ -5,6 +5,8 @@ dotnet new webapi -n <project-name>
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Design 
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+
 
 // Run this to ensure all is good
 dotnet ef
