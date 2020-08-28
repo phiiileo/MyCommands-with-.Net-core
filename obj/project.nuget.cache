@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fSGqp8Gdv3g975+8f4wcuWKCW89UVt1WX4Nph7vCD2AuB1f6gtkSSswwolLt5zVgylWfkYnapWmDjfEkQYKBYQ==",
+  "dgSpecHash": "tzK2keAII2+8eDYJmGhgPw+2q2z9GOZxACHrN6c0klepGcli6Y+de7DoWAi2Gb/cQS486c9lQicTJCev/a0r5g==",
   "success": true,
   "projectFilePath": "/Users/emmanuelowojori/Desktop/TASKS/C#/Commander/Commander.csproj",
   "expectedPackageFiles": [
+    "/Users/emmanuelowojori/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
+    "/Users/emmanuelowojori/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.0.1/automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -68,7 +70,7 @@
     "/Users/emmanuelowojori/.nuget/packages/system.objectmodel/4.3.0/system.objectmodel.4.3.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/system.private.datacontractserialization/4.3.0/system.private.datacontractserialization.4.3.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/system.reflection/4.3.0/system.reflection.4.3.0.nupkg.sha512",
-    "/Users/emmanuelowojori/.nuget/packages/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg.sha512",
+    "/Users/emmanuelowojori/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
     "/Users/emmanuelowojori/.nuget/packages/system.reflection.extensions/4.3.0/system.reflection.extensions.4.3.0.nupkg.sha512",

@@ -1,3 +1,6 @@
+// To initiate .NET web api
+dotnet new webapi -n <project-name>
+
 //Packages needed to install
 dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.EntityFrameworkCore.Design 
