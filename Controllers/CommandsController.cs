@@ -30,7 +30,6 @@ namespace Commander.Controllers
         [HttpGet("{id}")]
         public ActionResult<Command> GetCommandById(int id)
         {
-            Console.WriteLine(id);
             var commandItem = _repository.GetCommandById(id);
             return Ok(commandItem);
         }
