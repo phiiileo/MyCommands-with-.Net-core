@@ -1,0 +1,10 @@
+//Packages needed to install
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Design 
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+// Run this to ensure all is good
+dotnet ef
+
+// if not, run this then run 7 again
+dotnet tool install --global dotnet-ef
