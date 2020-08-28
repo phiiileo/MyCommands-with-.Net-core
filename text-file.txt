@@ -9,4 +9,12 @@ dotnet ef
 // if not, run this then run 7 again
 dotnet tool install --global dotnet-ef
 
+// initiate migration
 dotnet ef migrations add InitialMigration
+
+// to undo migration
+dotnet ef migrations remove
+
+//to update the db
+dotnet ef database update
+
