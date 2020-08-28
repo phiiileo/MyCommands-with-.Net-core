@@ -1,4 +1,5 @@
 using AutoMapper;
+using Commander.Dtos;
 using Commander.Models;
 
 namespace Commander.Profiles 
@@ -7,7 +8,7 @@ namespace Commander.Profiles
     {
         public CommandsProfile()
         {
-            CreateMap<Command, CommandsProfile>();
+            CreateMap<Command, CommandReadDto>();
         }
     }
 }
