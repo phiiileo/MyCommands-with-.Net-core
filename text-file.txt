@@ -8,3 +8,5 @@ dotnet ef
 
 // if not, run this then run 7 again
 dotnet tool install --global dotnet-ef
+
+dotnet ef migrations add InitialMigration
