@@ -53,7 +53,6 @@ namespace Commander.Controllers
             var commandRedDto = _mapper.Map<CommandReadDto>(commandModel);
             
             return CreatedAtRoute(nameof(GetCommandById), new {Id = commandRedDto.Id}, commandRedDto);
-            // return Ok(commandRedDto);
         }
 
     }
