@@ -42,7 +42,7 @@ namespace Commander.Controllers
             return NotFound();
         }
 
-        // PoST api/commands
+        // Post api/commands
         [HttpPost]
         public ActionResult<CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
         {
@@ -51,9 +51,27 @@ namespace Commander.Controllers
             _repository.saveChanges();
 
             var commandRedDto = _mapper.Map<CommandReadDto>(commandModel);
-            
-            return CreatedAtRoute(nameof(GetCommandById), new {Id = commandRedDto.Id}, commandRedDto);
+
+            return CreatedAtRoute(nameof(GetCommandById), new { Id = commandRedDto.Id }, commandRedDto);
         }
 
+        // Put api/commands/{id}
+        [HttpPut("{id}")]
+        public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
+        {
+            var commandModelFromRepo = _repository.GetCommandById(id);
+            if (commandModelFromRepo == null)
+            {
+                return NotFound();
+            }
+
+            _mapper.Map(commandUpdateDto,commandModelFromRepo);
+
+            _repository.updateCommand(commandModelFromRepo);
+
+            _repository.saveChanges();
+
+            return NoContent();
+        }
     }
 }
