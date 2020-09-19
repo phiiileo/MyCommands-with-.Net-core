@@ -14,7 +14,7 @@
         "outputPath": "/Users/emmanuelowojori/Desktop/TASKS/C#/Commander/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/emmanuelowojori/.nuget/NuGet/NuGet.Config"
+          "/Users/emmanuelowojori/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

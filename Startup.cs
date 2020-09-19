@@ -30,7 +30,7 @@ namespace Commander
         {
             services.AddDbContext<CommanderContext>(opt => opt.UseSqlServer
             (Configuration.GetConnectionString("CommanderConnectionString")));
-            
+
             services.AddControllers().AddNewtonsoftJson( s => {
                 s.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
             });
